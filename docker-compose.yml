@@ -1,0 +1,10 @@
+version: '3'
+services: 
+    python:
+        build: .
+        networks:
+            - whomentionstock_network
+
+networks:
+    whomentionstock_network:
+        name: custom_whomentionstock_network
