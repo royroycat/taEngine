@@ -7,4 +7,5 @@ services:
 
 networks:
     whomentionstock_network:
+        external: true
         name: custom_whomentionstock_network
